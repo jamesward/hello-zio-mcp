@@ -12,7 +12,7 @@ ThisBuild / mcpPort := 5104
 // SkillsJars: extract agent Skills with `./sbt extractSkillsJars`
 skillsJarsOutputDir := Some(file(".kiro/skills"))
 
-libraryDependencies += "com.jamesward" % "skills" % "0.0.12" % Skills
+libraryDependencies += "com.jamesward" % "skills" % "0.0.15" % Skills
 
 scalacOptions ++= Seq(
   "-language:strictEquality",
